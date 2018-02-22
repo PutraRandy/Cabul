@@ -531,7 +531,7 @@ def bot(op):
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
                      balas = ["anu Lagi Off Kalau Penting Pc Aja",cName + " tag mulu jones?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Oki Nya lagi off", cName + " Kenapa Tag saya?","SPAM PC aja " + cName, "Jangan Suka Tag gua " + cName, "Kamu siapa " + cName + "?", "Ada Perlu apa " + cName + "?","Tenggelamkan tuh yang suka tag pake BOT","Tersummon -_-"]
-                    ret_ = "[Auto Respond] " + random.choice(balas)
+                     ret_ = "[Auto Respond] " + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
                      mentionees = mention['MENTIONEES']
